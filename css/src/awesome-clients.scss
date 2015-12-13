@@ -1,0 +1,40 @@
+#awesome-clients {
+  background-color: #FAFAFA;
+
+  .container {
+    padding: 5em 7em 5em 7em;
+
+    .title{
+      h2 {
+        font-size: 3.4em;
+        text-align: center;
+      }
+      p {
+        text-align: center;
+      }
+
+      .web {
+        font-weight: 100;
+      }
+
+    }
+
+    .row{
+      padding: 1em 6em 1em 2em;
+      .col-sm-8{
+        padding: 2em 1em 1em 3em;
+        margin: 2em 0em 0em 0em;
+        border: 2px solid #EEE;
+        p.msg {
+          font-size: 16px;
+          line-height: 26px;
+        }
+
+        p.client-details {
+          color: #007AC8;
+        }
+      }
+    }
+
+  }
+}

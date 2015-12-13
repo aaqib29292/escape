@@ -52,12 +52,13 @@ body {
 #web-development .row {
   padding: 5em 9em 5em 12em; }
 #web-development h2 {
-  font-size: 3.4em;
-  padding-bottom: 0.5em; }
+  font-size: 3.4em; }
 #web-development .web {
   font-weight: 100; }
 #web-development p {
-  line-height: 150%; }
+  line-height: 150%;
+  font-size: 17px;
+  font-weight: 100; }
 
 #identity-branding {
   background-color: #FAFAFA; }
@@ -88,5 +89,35 @@ body {
 #features .middle {
   margin-bottom: 2em;
   margin-top: 2em; }
+
+#awesome-clients {
+  background-color: #FAFAFA; }
+  #awesome-clients .container {
+    padding: 5em 7em 5em 7em; }
+    #awesome-clients .container .title h2 {
+      font-size: 3.4em;
+      text-align: center; }
+    #awesome-clients .container .title p {
+      text-align: center; }
+    #awesome-clients .container .title .web {
+      font-weight: 100; }
+    #awesome-clients .container .row {
+      padding: 1em 6em 1em 2em; }
+      #awesome-clients .container .row .col-sm-8 {
+        padding: 2em 1em 1em 3em;
+        margin: 2em 0em 0em 0em;
+        border: 2px solid #EEE; }
+        #awesome-clients .container .row .col-sm-8 p.msg {
+          font-size: 16px;
+          line-height: 26px; }
+        #awesome-clients .container .row .col-sm-8 p.client-details {
+          color: #007AC8; }
+
+#logo .container {
+  padding: 5em 9em 5em 12em; }
+#logo img {
+  width: 11em;
+  height: 2.8em;
+  margin: 0 2em; }
 
 /*# sourceMappingURL=app.css.map */
