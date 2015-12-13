@@ -7,6 +7,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 3em 0; }
+  #main :hover {
+    color: #FFF;
+    text-decoration: none; }
   #main .pull-left {
     font-size: 2em;
     font-weight: bold;

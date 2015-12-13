@@ -4,12 +4,18 @@
   background-size: cover;
   background-repeat: no-repeat;
 
+  :hover{
+    color: #FFF;
+    text-decoration: none;
+  }
+
   padding: 3em 0;
 
   .pull-left {
     font-size: 2em;
     font-weight: bold;
     margin-left: 4em;
+
   }
 
   a.active {
