@@ -75,4 +75,18 @@ body {
   #identity-branding img {
     margin-top: 3em; }
 
+#features .container {
+  padding: 7em 9em 5em 11em; }
+#features .first {
+  margin-left: -4em; }
+#features .icon {
+  margin-right: 1em; }
+#features .col-sm-4 {
+  margin-top: -1.5em; }
+#features .row {
+  margin-bottom: 0em; }
+#features .middle {
+  margin-bottom: 2em;
+  margin-top: 2em; }
+
 /*# sourceMappingURL=app.css.map */
