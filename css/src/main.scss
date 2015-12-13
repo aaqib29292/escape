@@ -1,63 +1,69 @@
+
 #main {
-  height: 90vh;
+  height: 43em;
+  width: 93em;
   background-image: url(../images/city-scape.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 
-  :hover{
-    color: #FFF;
-    text-decoration: none;
-  }
+  .container{
 
-  padding: 3em 0;
-
-  .pull-left {
-    font-size: 2em;
-    font-weight: bold;
-    margin-left: 4em;
-
-  }
-
-  a.active {
-    font-family: 'Squada One', cursive;
-    text-transform: uppercase;
-    color: #FFF;
-    font-size: 1.2em;
-    letter-spacing: 2px;
-  }
-
-  .pull-right {
-    margin-right: 8em;
-    a {
+    :hover{
       color: #FFF;
-      padding: 1em;
-      transform: translateY(10px);
-      font-weight: bold;
-      font-size: 1.2em;
-
+      text-decoration: none;
     }
-  }
 
-  .title {
+    .nav{
+       padding-top: 4em;
+
+      .pull-left {
+        font-size: 2em;
+        font-weight: bold;
+        margin-left: 4em;
+        a.active {
+          font-family: 'Squada One', cursive;
+          text-transform: uppercase;
+          color: #FFF;
+          font-size: 1.2em;
+          letter-spacing: 2px;
+        }
+      }
+
+      .pull-right {
+        margin-right: 8em;
+        transform: translateY(10px);
+        a {
+          color: #FFF;
+          padding: 1em;
+
+          font-weight: bold;
+          font-size: 1.2em;
+        }
+      }
+    }
+
+    .title{
       text-align: center;
       color: #FFF;
       p {
-        font-size: 1.5em;
-        padding: 7em 0 0;
+        font-size: 2em;
+        padding: 4.8em 0 0;
       }
-
       h1 {
-        font-size: 3.5em;
+        font-size: 4.2em;
         text-transform: uppercase;
         padding-bottom: 1em;
         font-weight: bold;
       }
       .btn {
         color: #FFF;
+        font-weight: bolder;
         border-radius: 3px;
         border-color: #FFF;
         padding: 0.5em 2.5em;
+        border-width: 3px;
       }
+    }
   }
 
 }

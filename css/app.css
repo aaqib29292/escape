@@ -2,47 +2,77 @@ body {
   font-family: 'Lato', sans-serif; }
 
 #main {
-  height: 90vh;
+  height: 43em;
+  width: 93em;
   background-image: url(../images/city-scape.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
-  padding: 3em 0; }
-  #main :hover {
+  background-repeat: no-repeat; }
+  #main .container :hover {
     color: #FFF;
     text-decoration: none; }
-  #main .pull-left {
-    font-size: 2em;
-    font-weight: bold;
-    margin-left: 4em; }
-  #main a.active {
-    font-family: 'Squada One', cursive;
-    text-transform: uppercase;
-    color: #FFF;
-    font-size: 1.2em;
-    letter-spacing: 2px; }
-  #main .pull-right {
-    margin-right: 8em; }
-    #main .pull-right a {
-      color: #FFF;
-      padding: 1em;
-      transform: translateY(10px);
+  #main .container .nav {
+    padding-top: 4em; }
+    #main .container .nav .pull-left {
+      font-size: 2em;
       font-weight: bold;
-      font-size: 1.2em; }
-  #main .title {
+      margin-left: 4em; }
+      #main .container .nav .pull-left a.active {
+        font-family: 'Squada One', cursive;
+        text-transform: uppercase;
+        color: #FFF;
+        font-size: 1.2em;
+        letter-spacing: 2px; }
+    #main .container .nav .pull-right {
+      margin-right: 8em;
+      transform: translateY(10px); }
+      #main .container .nav .pull-right a {
+        color: #FFF;
+        padding: 1em;
+        font-weight: bold;
+        font-size: 1.2em; }
+  #main .container .title {
     text-align: center;
     color: #FFF; }
-    #main .title p {
-      font-size: 1.5em;
-      padding: 7em 0 0; }
-    #main .title h1 {
-      font-size: 3.5em;
+    #main .container .title p {
+      font-size: 2em;
+      padding: 4.8em 0 0; }
+    #main .container .title h1 {
+      font-size: 4.2em;
       text-transform: uppercase;
       padding-bottom: 1em;
       font-weight: bold; }
-    #main .title .btn {
+    #main .container .title .btn {
       color: #FFF;
+      font-weight: bolder;
       border-radius: 3px;
       border-color: #FFF;
-      padding: 0.5em 2.5em; }
+      padding: 0.5em 2.5em;
+      border-width: 3px; }
+
+#web-development .row {
+  padding: 5em 9em 5em 12em; }
+#web-development h2 {
+  font-size: 3.4em;
+  padding-bottom: 0.5em; }
+#web-development .web {
+  font-weight: 100; }
+#web-development p {
+  line-height: 150%; }
+
+#identity-branding {
+  background-color: #FAFAFA; }
+  #identity-branding .row {
+    padding: 5em 11em 5em 11em; }
+    #identity-branding .row .col-sm-8 {
+      padding-left: 4em; }
+  #identity-branding h2 {
+    font-size: 3.4em;
+    padding-bottom: 0.5em; }
+  #identity-branding .light-font {
+    font-weight: 100; }
+  #identity-branding p {
+    line-height: 150%; }
+  #identity-branding img {
+    margin-top: 3em; }
 
 /*# sourceMappingURL=app.css.map */
