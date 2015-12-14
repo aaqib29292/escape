@@ -114,10 +114,38 @@ body {
           color: #007AC8; }
 
 #logo .container {
-  padding: 5em 9em 5em 12em; }
+  padding: 3.5em 9em 3.5em 12em; }
 #logo img {
   width: 11em;
   height: 2.8em;
   margin: 0 2em; }
+
+#amazing-team {
+  background-color: #181818;
+  color: #FFF; }
+  #amazing-team .container {
+    padding: 5em 14em;
+    text-align: center; }
+    #amazing-team .container .title h2 {
+      font-size: 3.4em; }
+    #amazing-team .container .title .web {
+      font-weight: 100; }
+    #amazing-team .container .row {
+      text-align: center;
+      margin: 5em 0 3em; }
+      #amazing-team .container .row h3 {
+        font-size: 16px;
+        font-weight: bold; }
+      #amazing-team .container .row p {
+        font-weight: 100; }
+      #amazing-team .container .row i {
+        border: 3px solid;
+        border-radius: 50%;
+        padding: 7px;
+        font-size: 21px;
+        margin: 0em 3px; }
+    #amazing-team .container .description p {
+      padding: 0em 8em;
+      line-height: 26px; }
 
 /*# sourceMappingURL=app.css.map */
