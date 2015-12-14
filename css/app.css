@@ -148,4 +148,42 @@ body {
       padding: 0em 8em;
       line-height: 26px; }
 
+#footer {
+  background-color: #768FC5;
+  color: #FFF; }
+  #footer .container {
+    padding: 4em 9em 1em 9em; }
+    #footer .container .row {
+      padding-bottom: 2em; }
+      #footer .container .row .wish h2 {
+        font-size: 3.4em; }
+      #footer .container .row .wish .web {
+        font-weight: 100; }
+      #footer .container .row p.msg {
+        padding: 1em 0em 2em; }
+      #footer .container .row .row_1 {
+        font-size: 1.3em;
+        padding: 10px 0; }
+        #footer .container .row .row_1 i {
+          margin: 2px;
+          font-size: 1.5em; }
+        #footer .container .row .row_1 span {
+          position: relative;
+          top: -3px; }
+      #footer .container .row .form-horizontal {
+        padding: 2em 0em 0em 1.5em; }
+        #footer .container .row .form-horizontal .form-group {
+          margin-bottom: 2em; }
+      #footer .container .row .checkbox {
+        margin: -1em 0em; }
+      #footer .container .row .btn {
+        padding: 0.5em 3em; }
+      #footer .container .row hr {
+        border-top: 1px solid rgba(167, 165, 165, 0.6); }
+    #footer .container .copyright {
+      text-align: center; }
+
+#copyright {
+  background-color: #768FC5; }
+
 /*# sourceMappingURL=app.css.map */
