@@ -3,7 +3,7 @@ body {
 
 #main {
   height: 43em;
-  width: 93em;
+  width: 100%;
   background-image: url(../images/city-scape.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
@@ -11,30 +11,29 @@ body {
     color: #FFF;
     text-decoration: none; }
   #main .container .nav {
-    padding-top: 4em; }
+    padding: 4em 7em 0em 9.5em; }
     #main .container .nav .pull-left {
-      font-size: 2em;
-      font-weight: bold;
-      margin-left: 4em; }
+      font-size: 1.5em;
+      font-weight: bold; }
       #main .container .nav .pull-left a.active {
         font-family: 'Squada One', cursive;
         text-transform: uppercase;
         color: #FFF;
-        font-size: 1.2em;
+        font-size: 1.3em;
         letter-spacing: 2px; }
     #main .container .nav .pull-right {
-      margin-right: 8em;
       transform: translateY(10px); }
       #main .container .nav .pull-right a {
         color: #FFF;
         padding: 1em;
         font-weight: bold;
-        font-size: 1.2em; }
+        font-size: 1em; }
   #main .container .title {
     text-align: center;
     color: #FFF; }
     #main .container .title p {
       font-size: 2em;
+      color: #918F9B;
       padding: 4.8em 0 0; }
     #main .container .title h1 {
       font-size: 4.2em;
@@ -52,18 +51,22 @@ body {
 #web-development .row {
   padding: 5em 9em 5em 12em; }
 #web-development h2 {
-  font-size: 3.4em; }
+  font-size: 3.4em;
+  margin-bottom: 28px; }
 #web-development .web {
   font-weight: 100; }
 #web-development p {
   line-height: 150%;
-  font-size: 17px;
-  font-weight: 100; }
+  font-weight: 100;
+  color: #918F9B;
+  margin-bottom: 2em; }
+#web-development .hub {
+  margin-top: 2em; }
 
 #identity-branding {
   background-color: #FAFAFA; }
   #identity-branding .row {
-    padding: 5em 11em 5em 11em; }
+    padding: 5em 11em 4em 11em; }
     #identity-branding .row .col-sm-8 {
       padding-left: 4em; }
   #identity-branding h2 {
@@ -72,7 +75,9 @@ body {
   #identity-branding .light-font {
     font-weight: 100; }
   #identity-branding p {
-    line-height: 150%; }
+    line-height: 150%;
+    color: #918F9B;
+    margin-bottom: 2.2em; }
   #identity-branding img {
     margin-top: 3em; }
 
@@ -82,6 +87,11 @@ body {
   margin-left: -4em; }
 #features .icon {
   margin-right: 1em; }
+#features h3 {
+  font-size: 18px;
+  font-weight: bold; }
+#features p {
+  color: #918F9B; }
 #features .col-sm-4 {
   margin-top: -1.5em; }
 #features .row {
@@ -98,7 +108,8 @@ body {
       font-size: 3.4em;
       text-align: center; }
     #awesome-clients .container .title p {
-      text-align: center; }
+      text-align: center;
+      color: #918F9B; }
     #awesome-clients .container .title .web {
       font-weight: 100; }
     #awesome-clients .container .row {
@@ -106,44 +117,68 @@ body {
       #awesome-clients .container .row .col-sm-8 {
         padding: 2em 1em 1em 3em;
         margin: 2em 0em 0em 0em;
-        border: 2px solid #EEE; }
+        border: 2px solid #EEE;
+        background-color: #FFF; }
         #awesome-clients .container .row .col-sm-8 p.msg {
           font-size: 16px;
-          line-height: 26px; }
+          line-height: 26px;
+          color: #918F9B; }
         #awesome-clients .container .row .col-sm-8 p.client-details {
           color: #007AC8; }
 
 #logo .container {
-  padding: 3.5em 9em 3.5em 12em; }
+  padding: 3.5em 9em 3.5em 15em; }
 #logo img {
   width: 11em;
   height: 2.8em;
-  margin: 0 2em; }
+  margin: 0 1.4em; }
+#logo .envato {
+  height: 2em; }
 
 #amazing-team {
   background-color: #181818;
   color: #FFF; }
   #amazing-team .container {
-    padding: 5em 14em;
+    padding: 5em 13em;
     text-align: center; }
+    #amazing-team .container p {
+      color: #918F9B; }
     #amazing-team .container .title h2 {
       font-size: 3.4em; }
     #amazing-team .container .title .web {
       font-weight: 100; }
-    #amazing-team .container .row {
+    #amazing-team .container .title p {
+      font-size: 1.2em; }
+    #amazing-team .container .boy {
       text-align: center;
       margin: 5em 0 3em; }
-      #amazing-team .container .row h3 {
+      #amazing-team .container .boy h3 {
         font-size: 16px;
         font-weight: bold; }
-      #amazing-team .container .row p {
+      #amazing-team .container .boy p {
         font-weight: 100; }
-      #amazing-team .container .row i {
+      #amazing-team .container .boy i {
         border: 3px solid;
         border-radius: 50%;
         padding: 7px;
         font-size: 21px;
-        margin: 0em 3px; }
+        margin: 0em 3px;
+        width: 2em; }
+    #amazing-team .container .men {
+      text-align: center;
+      margin: 5em 0 3em; }
+      #amazing-team .container .men h3 {
+        font-size: 16px;
+        font-weight: bold; }
+      #amazing-team .container .men p {
+        font-weight: 100; }
+      #amazing-team .container .men i {
+        border: 3px solid;
+        border-radius: 50%;
+        padding: 7px;
+        font-size: 21px;
+        margin: 0em 3px;
+        width: 2em; }
     #amazing-team .container .description p {
       padding: 0em 8em;
       line-height: 26px; }
@@ -152,7 +187,7 @@ body {
   background-color: #768FC5;
   color: #FFF; }
   #footer .container {
-    padding: 4em 9em 1em 9em; }
+    padding: 4em 10em 1em; }
     #footer .container .row {
       padding-bottom: 2em; }
       #footer .container .row .wish h2 {
@@ -160,24 +195,32 @@ body {
       #footer .container .row .wish .web {
         font-weight: 100; }
       #footer .container .row p.msg {
-        padding: 1em 0em 2em; }
+        padding: 2em 0em 1em; }
       #footer .container .row .row_1 {
-        font-size: 1.3em;
-        padding: 10px 0; }
+        font-size: 1.5em;
+        padding: 13px 0; }
         #footer .container .row .row_1 i {
-          margin: 2px;
           font-size: 1.5em; }
         #footer .container .row .row_1 span {
           position: relative;
-          top: -3px; }
+          top: -6px;
+          font-size: 15px; }
+        #footer .container .row .row_1 .fa {
+          width: 1.5em;
+          text-align: center; }
       #footer .container .row .form-horizontal {
         padding: 2em 0em 0em 1.5em; }
         #footer .container .row .form-horizontal .form-group {
           margin-bottom: 2em; }
+      #footer .container .row .input {
+        height: 50px; }
       #footer .container .row .checkbox {
         margin: -1em 0em; }
       #footer .container .row .btn {
-        padding: 0.5em 3em; }
+        width: 100%;
+        height: 3em;
+        color: #768FC5;
+        border: px solid white; }
       #footer .container .row hr {
         border-top: 1px solid rgba(167, 165, 165, 0.6); }
     #footer .container .copyright {

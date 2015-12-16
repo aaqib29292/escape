@@ -1,7 +1,7 @@
 
 #main {
   height: 43em;
-  width: 93em;
+  width: 100%;
   background-image: url(../images/city-scape.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -14,30 +14,27 @@
     }
 
     .nav{
-       padding-top: 4em;
+      padding: 4em 7em 0em 9.5em;
 
       .pull-left {
-        font-size: 2em;
+        font-size: 1.5em;
         font-weight: bold;
-        margin-left: 4em;
         a.active {
           font-family: 'Squada One', cursive;
           text-transform: uppercase;
           color: #FFF;
-          font-size: 1.2em;
+          font-size: 1.3em;
           letter-spacing: 2px;
         }
       }
 
       .pull-right {
-        margin-right: 8em;
         transform: translateY(10px);
         a {
           color: #FFF;
           padding: 1em;
-
           font-weight: bold;
-          font-size: 1.2em;
+          font-size: 1em;
         }
       }
     }
@@ -47,6 +44,7 @@
       color: #FFF;
       p {
         font-size: 2em;
+        color: #918F9B;
         padding: 4.8em 0 0;
       }
       h1 {
