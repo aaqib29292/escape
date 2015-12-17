@@ -6,7 +6,7 @@
     padding: 5em 13em;
     text-align: center;
       p {
-        color: #918F9B;
+        color: $p_font-color;
       }
 
     .title{
@@ -25,7 +25,7 @@
       text-align: center;
       margin: 5em 0 3em;
       h3 {
-        font-size: 16px;
+          font-size: 1.1em;
         font-weight: bold;
       }
       p {
@@ -35,7 +35,7 @@
         border: 3px solid;
         border-radius: 50%;
         padding: 7px;
-        font-size: 21px;
+        font-size: 1.4em;
         margin: 0em 3px;
         width: 2em;
       }
@@ -44,7 +44,7 @@
     .description {
       p {
         padding: 0em 8em;
-        line-height: 26px;
+        line-height: 2em;
       }
     }
 

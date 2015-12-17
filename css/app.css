@@ -52,7 +52,7 @@ body {
   padding: 5em 9em 5em 12em; }
 #web-development h2 {
   font-size: 3.4em;
-  margin-bottom: 28px; }
+  margin-bottom: 0.6em; }
 #web-development .web {
   font-weight: 100; }
 #web-development p {
@@ -88,7 +88,7 @@ body {
 #features .icon {
   margin-right: 1em; }
 #features h3 {
-  font-size: 18px;
+  font-size: 1.3em;
   font-weight: bold; }
 #features p {
   color: #918F9B; }
@@ -120,7 +120,7 @@ body {
         border: 2px solid #EEE;
         background-color: #FFF; }
         #awesome-clients .container .row .col-sm-8 p.msg {
-          font-size: 16px;
+          font-size: 1.1em;
           line-height: 26px;
           color: #918F9B; }
         #awesome-clients .container .row .col-sm-8 p.client-details {
@@ -153,7 +153,7 @@ body {
       text-align: center;
       margin: 5em 0 3em; }
       #amazing-team .container .row h3 {
-        font-size: 16px;
+        font-size: 1.1em;
         font-weight: bold; }
       #amazing-team .container .row p {
         font-weight: 100; }
@@ -161,12 +161,12 @@ body {
         border: 3px solid;
         border-radius: 50%;
         padding: 7px;
-        font-size: 21px;
+        font-size: 1.4em;
         margin: 0em 3px;
         width: 2em; }
     #amazing-team .container .description p {
       padding: 0em 8em;
-      line-height: 26px; }
+      line-height: 2em; }
 
 #footer {
   background-color: #768FC5;
@@ -207,7 +207,7 @@ body {
         color: #768FC5;
         border: px solid white; }
       #footer .container .row hr {
-        border-top: 1px solid rgba(167, 165, 165, 0.6); }
+        border-top: 3px solid rgba(238, 238, 238, 0.09); }
     #footer .container .copyright {
       text-align: center; }
 

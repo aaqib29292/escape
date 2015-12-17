@@ -11,7 +11,7 @@
       }
       p {
         text-align: center;
-        color: #918F9B;
+        color: $p_font-color;
       }
 
       .web {
@@ -28,9 +28,9 @@
         border: 2px solid #EEE;
         background-color: #FFF;
         p.msg {
-          font-size: 16px;
+          font-size: 1.1em;;
           line-height: 26px;
-          color: #918F9B;
+          color: $p_font-color;
         }
 
         p.client-details {

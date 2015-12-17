@@ -9,7 +9,7 @@
   .container{
 
     :hover{
-      color: #FFF;
+      color: $h_font-color;
       text-decoration: none;
     }
 
@@ -22,7 +22,7 @@
         a.active {
           font-family: 'Squada One', cursive;
           text-transform: uppercase;
-          color: #FFF;
+          color: $h_font-color;
           font-size: 1.3em;
           letter-spacing: 2px;
         }
@@ -31,7 +31,7 @@
       .pull-right {
         transform: translateY(10px);
         a {
-          color: #FFF;
+          color: $h_font-color;
           padding: 1em;
           font-weight: bold;
           font-size: 1em;
@@ -41,10 +41,10 @@
 
     .title{
       text-align: center;
-      color: #FFF;
+      color: $h_font-color;
       p {
         font-size: 2em;
-        color: #918F9B;
+        color: $p_font-color;
         padding: 4.8em 0 0;
       }
       h1 {
@@ -54,7 +54,7 @@
         font-weight: bold;
       }
       .btn {
-        color: #FFF;
+        color: $h_font-color;
         font-weight: bolder;
         border-radius: 3px;
         border-color: #FFF;

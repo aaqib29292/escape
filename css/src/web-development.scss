@@ -5,7 +5,7 @@
 
   h2 {
     font-size: 3.4em;
-    margin-bottom: 28px;
+    margin-bottom: 0.6em;
     }
 
   .web {
@@ -15,7 +15,7 @@
   p {
     line-height: 150%;
     font-weight: 100;
-    color: #918F9B;
+    color: $p_font-color;
     margin-bottom: 2em;
   }
   .hub {
