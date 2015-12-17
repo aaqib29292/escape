@@ -149,30 +149,15 @@ body {
       font-weight: 100; }
     #amazing-team .container .title p {
       font-size: 1.2em; }
-    #amazing-team .container .boy {
+    #amazing-team .container .row {
       text-align: center;
       margin: 5em 0 3em; }
-      #amazing-team .container .boy h3 {
+      #amazing-team .container .row h3 {
         font-size: 16px;
         font-weight: bold; }
-      #amazing-team .container .boy p {
+      #amazing-team .container .row p {
         font-weight: 100; }
-      #amazing-team .container .boy i {
-        border: 3px solid;
-        border-radius: 50%;
-        padding: 7px;
-        font-size: 21px;
-        margin: 0em 3px;
-        width: 2em; }
-    #amazing-team .container .men {
-      text-align: center;
-      margin: 5em 0 3em; }
-      #amazing-team .container .men h3 {
-        font-size: 16px;
-        font-weight: bold; }
-      #amazing-team .container .men p {
-        font-weight: 100; }
-      #amazing-team .container .men i {
+      #amazing-team .container .row i {
         border: 3px solid;
         border-radius: 50%;
         padding: 7px;
