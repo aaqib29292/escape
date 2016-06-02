@@ -2,7 +2,7 @@ body {
   font-family: 'Lato', sans-serif; }
 
 #main {
-  height: 43em;
+  height: 100vh;
   width: 100%;
   background-image: url(../images/city-scape.jpg);
   background-size: cover;
@@ -114,16 +114,16 @@ body {
       font-weight: 100; }
     #awesome-clients .container .row {
       padding: 1em 6em 1em 2em; }
-      #awesome-clients .container .row .col-sm-8 {
-        padding: 2em 1em 1em 3em;
+      #awesome-clients .container .row .col8 {
+        padding: 2em 2em 1em 3em;
         margin: 2em 0em 0em 0em;
         border: 2px solid #EEE;
         background-color: #FFF; }
-        #awesome-clients .container .row .col-sm-8 p.msg {
+        #awesome-clients .container .row .col8 p.msg {
           font-size: 1.1em;
           line-height: 26px;
           color: #918F9B; }
-        #awesome-clients .container .row .col-sm-8 p.client-details {
+        #awesome-clients .container .row .col8 p.client-details {
           color: #007AC8; }
 
 #logo .container {
@@ -206,8 +206,8 @@ body {
         height: 3em;
         color: #768FC5;
         border: px solid white; }
-      #footer .container .row hr {
-        border-top: 3px solid rgba(238, 238, 238, 0.09); }
+    #footer .container hr {
+      border-top: 3px solid rgba(238, 238, 238, 0.09); }
     #footer .container .copyright {
       text-align: center; }
 
